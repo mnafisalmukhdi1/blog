@@ -1,0 +1,9 @@
+<footer class="container">
+<h6>&copy; <span id="year"></span> <a href="{{site.url}}">{{site.title}}</a></h6>
+</footer>
+<script type="text/javascript">
+const d = new Date();
+let year = d.getUTCFullYear();
+document.getElementById("year").innerHTML = year;
+</script>
+</body>
