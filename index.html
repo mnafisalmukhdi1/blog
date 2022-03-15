@@ -1,19 +1,18 @@
 ---
 layout: default
-title: "Nafis' Blog"
 ---
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 	<div class="flex">
 		<div class="flex-1">
-			<h2><a href="{{ post.url }}" class="text-sky-500">{{ post.title }}</a></h2>
+			<h2 class="text-lg"><a href="{{ post.url }}" class="text-sky-500">{{ post.title }}</a></h2>
 		</div>
-		<span class="order-last">{{ post.date | date: "%b %d, %y" }}</span>
+		<span class="order-last text-gray-500">{{ post.date | date: "%b %d, %y" }}</span>
 	</div>
   {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
+<div class="flex">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">
       Previous
@@ -25,8 +24,8 @@ title: "Nafis' Blog"
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="{{ paginator.next_page_path }}" class="order-last">Next</a>
   {% else %}
-    <span class="next ">Next</span>
+    <span class="order-last">Next</span>
   {% endif %}
 </div>
