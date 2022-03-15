@@ -1,4 +1,5 @@
 url: http://blog.nafis1.my.id
+title: "Nafis' Blog"
 description: "Thanks for visiting!"
 permalink: /:title
 paginate: 5
