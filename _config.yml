@@ -3,7 +3,7 @@ title: "Nafis' Blog"
 description: "Thanks for visiting!"
 
 permalink: /:title
-paginate: 20
+paginate: 5
 
 source              : .
 destination         : ./_site
