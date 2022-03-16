@@ -3,7 +3,7 @@ title: "Nafis' Blog"
 description: "Thanks for visiting!"
 
 permalink: /:title
-paginate: 5
+paginate: 20
 paginate_path       : /page/:num
 
 collections:
