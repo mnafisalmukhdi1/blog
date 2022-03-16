@@ -1,6 +1,7 @@
 url: http://blog.nafis1.my.id
 title: "Nafis' Blog"
 description: "Thanks for visiting!"
+author: "mnafisalmukhdi1"
 
 permalink: /:title
 paginate: 20
