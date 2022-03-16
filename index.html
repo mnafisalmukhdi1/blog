@@ -6,7 +6,7 @@ title: "Home"
 {% for post in paginator.posts %}
 	<div class="flex">
 		<div class="flex-1">
-			<h2 class="text-lg"><a href="{{ post.url }}" class="text-sky-500">{{ post.title }}</a></h2>
+			<h2 class="text-xl"><a href="{{ post.url }}" class="text-sky-500">{{ post.title }}</a></h2>
 		</div>
 		<span class="order-last text-gray-500">{{ post.date | date: "%b %d, %y" }}</span>
 	</div>
