@@ -3,89 +3,89 @@ layout: post
 title: "Indah Mamandir Bruno"
 author: mnafisalmukhdi1
 ---
-- Indah mamandir Bruno
-- Indah mamandir Bruno
-
-- Wayah aku banikahan
-- Kami banikahan
-- Wayah itu sabujurnya tarang babanaran
-- Kada pacangan hujan
-
-- Bruno datang bamuha himung (Garugum!)
-- Ikam kah aku nang bakisah?
-- Barilaan, kita sambung
-
-- Bruno bapadah hujan
-- Kanapa manyambat nitu?
-- Mancamuhi pikiran
-- Abuela, ibitakan payung
-- Banikahan wayah muru
-- Harinya bagus pang, tagal
-
-- Indah mamandir Bruno
-- Indah mamandir Bruno
-
-- Baganal takutan lawan Bruno, baaga
-- Kadangaran tarus inya pina babisik
-- Bunyinya mahirip nang kaya karasik
-- Sik, sik, sik
-
-- Sabarataan jadi tarasa barat
-- Maulah kulawarga manangguh harat
-- Mambilang mamacam nang kada karuan
-- Pahamlah ikam?
-
-- Baawak ancau
-- Tikus di balakang
-- Dikiau inya
-- Sab'rataan langlam
-- Tahu mimpimu
-- Lawan takutanmu
-
-- Indah mamandir Bruno
-- Indah mamandir Bruno
-
-- Ujarnya iwakku mati, imbah 'tu mati
-- Ujarnya ku pacang balamak, nah itihi awak
-- Ujarnya rambutku kainah kadada, nah langisnya
-- Kada kawa bukah, mun sudah batuah
-
-- Ujarnya sabarataan nang kuhandaki jadi takdir
-- Ujarnya kasanggamanku bamagin sampai nang kaya banir
-
-- Oye, Mariano ka sini
-
-- Ujarnya lakian nang kuhandaki
-- Kada jadi ampunku
-- Inya wan nang lain
-- Kaya aku mandangar inya damini
-- Aku kada mandangar ikam
-- Aku mandangarnya, ku dangar inya
-
-- Hm, si Bruno
-- Inggih, pasal si Bruno
-- Aku handak tahu si Bruno
-- Kisahakan aku pasal Bruno
-
-- Isabela, pacarmu datang
-- Wayahnya makanan
-
-- Wayah aku banikahan / Ujarnya sabarataan nang kuhandaki jadi takdir / Baganal takutan lawan Bruno, baaga / Baawak ancau
-- Kami banikahan. Wayah itu sabujurnya tarang babanaran / Tikus di balakang. Dikiau inya / Kadangaran tarus inya pina babisik
-- Kada pacangan hujan / Sab'rataan langlam / Bunyinya mahirip nang kaya karasik
-- Bruno datang bamuha himung (Garugum!) / Ujarnya kasanggamanku bamagin sampai nang kaya banir / Sabarataan jadi tarasa barat. Maulah kulawarga manangguh harat
-- Ikam kah aku nang bakisah? / Mambilang mamacam nang kada karuan
-- Barilaan, kita sambung / Oye, Mariano ka sini / Pahamlah ikam?
-- Bruno bapadah hujan / Ujarnya sabarataan nang kuhandaki jadi takdir / Baawak ancau
-- Kanapa manyambat nitu? / Tikus di balakang
-- Mancamuhi pikiran / Dikiau inya. Sab'rataan langlam / Inya wan nang lain
-- Abuela, ibitakan payung / Ku takutan! Tahu mimpimu, lawan takutanmu
-- Banikahan wayah muru / Ku takutan!
-- Harinya bagus pang, tagal / Kada papa ja am!
-
-- Inya datang!
-
-- Indah mamandir Bruno
-- Kanapa mamandir Bruno?
-- Indah mamandir Bruno
-- Mamandir pasal Bruno?
+Indah mamandir Bruno<br>
+Indah mamandir Bruno<br>
+<br>
+Wayah aku banikahan<br>
+Kami banikahan<br>
+Wayah itu sabujurnya tarang babanaran<br>
+Kada pacangan hujan<br>
+<br>
+Bruno datang bamuha himung (Garugum!)<br>
+Ikam kah aku nang bakisah?<br>
+Barilaan, kita sambung<br>
+<br>
+Bruno bapadah hujan<br>
+Kanapa manyambat nitu?<br>
+Mancamuhi pikiran<br>
+Abuela, ibitakan payung<br>
+Banikahan wayah muru<br>
+Harinya bagus pang, tagal<br>
+<br>
+Indah mamandir Bruno<br>
+Indah mamandir Bruno<br>
+<br>
+Baganal takutan lawan Bruno, baaga<br>
+Kadangaran tarus inya pina babisik<br>
+Bunyinya mahirip nang kaya karasik<br>
+Sik, sik, sik<br>
+<br>
+Sabarataan jadi tarasa barat<br>
+Maulah kulawarga manangguh harat<br>
+Mambilang mamacam nang kada karuan<br>
+Pahamlah ikam?<br>
+<br>
+Baawak ancau<br>
+Tikus di balakang<br>
+Dikiau inya<br>
+Sab'rataan langlam<br>
+Tahu mimpimu<br>
+Lawan takutanmu<br>
+<br>
+Indah mamandir Bruno<br>
+Indah mamandir Bruno<br>
+<br>
+Ujarnya iwakku mati, imbah 'tu mati<br>
+Ujarnya ku pacang balamak, nah itihi awak<br>
+Ujarnya rambutku kainah kadada, nah langisnya<br>
+Kada kawa bukah, mun sudah batuah<br>
+<br>
+Ujarnya sabarataan nang kuhandaki jadi takdir<br>
+Ujarnya kasanggamanku bamagin sampai nang kaya banir<br>
+<br>
+Oye, Mariano ka sini<br>
+<br>
+Ujarnya lakian nang kuhandaki<br>
+Kada jadi ampunku<br>
+Inya wan nang lain<br>
+Kaya aku mandangar inya damini<br>
+Aku kada mandangar ikam<br>
+Aku mandangarnya, ku dangar inya<br>
+<br>
+Hm, si Bruno<br>
+Inggih, pasal si Bruno<br>
+Aku handak tahu si Bruno<br>
+Kisahakan aku pasal Bruno<br>
+<br>
+Isabela, pacarmu datang<br>
+Wayahnya makanan<br>
+<br>
+Wayah aku banikahan / Ujarnya sabarataan nang kuhandaki jadi takdir / Baganal takutan lawan Bruno, baaga / Baawak ancau<br>
+Kami banikahan. Wayah itu sabujurnya tarang babanaran / Tikus di balakang. Dikiau inya / Kadangaran tarus inya pina babisik<br>
+Kada pacangan hujan / Sab'rataan langlam / Bunyinya mahirip nang kaya karasik<br>
+Bruno datang bamuha himung (Garugum!) / Ujarnya kasanggamanku bamagin sampai nang kaya banir / Sabarataan jadi tarasa barat. Maulah kulawarga manangguh harat<br>
+Ikam kah aku nang bakisah? / Mambilang mamacam nang kada karuan<br>
+Barilaan, kita sambung / Oye, Mariano ka sini / Pahamlah ikam?<br>
+Bruno bapadah hujan / Ujarnya sabarataan nang kuhandaki jadi takdir / Baawak ancau<br>
+Kanapa manyambat nitu? / Tikus di balakang<br>
+Mancamuhi pikiran / Dikiau inya. Sab'rataan langlam / Inya wan nang lain<br>
+Abuela, ibitakan payung / Ku takutan! Tahu mimpimu, lawan takutanmu<br>
+Banikahan wayah muru / Ku takutan!<br>
+Harinya bagus pang, tagal / Kada papa ja am!<br>
+<br>
+Inya datang!<br>
+<br>
+Indah mamandir Bruno<br>
+Kanapa mamandir Bruno?<br>
+Indah mamandir Bruno<br>
+Mamandir pasal Bruno?<br>
