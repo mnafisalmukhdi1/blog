@@ -44,14 +44,14 @@ Buka lambaran nang hanyar
 ***
 Perlu diketahui, bahwa lirik ini tidak diterjemahkan secara harfiah. Banyak perubahan dilakukan demi menyesuaikan dengan jumlah suku kata, irama, maupun rima.
 
-[^1] Mamang: mantra dalam bahasa Banjar.
+[^1]: Mamang berarti mantra dalam bahasa Banjar. Mungkin terdengar lucu dalam bahasa lain.
 
-[^2] Banyak varian untuk "Sunyi dan sepi" dalam bahasa Banjar, tapi kata "sindam" dipilih untuk melestarikan kata arkais dan "hinip" hanya untuk menyesuaikan rima.
+[^2]: Banyak varian untuk "Sunyi dan sepi" dalam bahasa Banjar, tapi kata "sindam" dipilih untuk melestarikan kata arkais dan "hinip" hanya untuk menyesuaikan rima.
 
-[^3] Palidangan sebenarnya berarti ruang tengah dalam arsitektur Rumah Banjar, dikenal sebagai ruang terluas. Pesan yang ingin kusampaikan adalah rasa kesepian dalam ruang yang besar, setara dengan sendirian di tengah keramaian.
+[^3]: Palidangan sebenarnya berarti ruang tengah dalam arsitektur Rumah Banjar, dikenal sebagai ruang terluas. Pesan yang ingin kusampaikan adalah rasa kesepian dalam ruang yang besar, setara dengan sendirian di tengah keramaian.
 
-[^4] Memikirkan dalam lamunan.
+[^4]: Memikirkan dalam lamunan.
 
-[^5] Cahaya dari kejauhan.
+[^5]: Cahaya dari kejauhan.
 
-[^6] Remehkan, atau hilangkan sepenuhnya.
+[^6]: Remehkan, atau hilangkan sepenuhnya.
