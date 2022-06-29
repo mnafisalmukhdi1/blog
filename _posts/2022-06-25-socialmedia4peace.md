@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #SocialMedia4Peace
+title: "#SocialMedia4Peace"
 author: mnafisalmukhdi1
 ---
 Media sosial, menjadi sarana digital bagi manusia untuk berinteraksi satu sama lain, tanpa harus mengenal ruang dan waktu. Itu berarti, kita akan menemui beragam individu yang terjadi karena adanya perbedaan, baik jenis kelamin, suku, agama, ras, dan lain-lain.
@@ -16,9 +16,9 @@ Let's make #SocialMedia4Peace.
 Halo. Saya Nafis.
 Di atas barusan adalah naskah yang saya bacakan, sebagai percobaan dalam partisipasi sebuah kompetisi yang diadakan [turnbackhoax.id](https://turnbackhoax.id) dan [UNESCO](https://unesco.org).
 
-Saya dengan kerendahan hati mengakui, kualitas video rekaman yang mungkin sudah ditonton di [Instagram](https://instagram.com/mnafisalmukhdi1) terlebih dahulu, tidak begitu bagus, tapi sampai di situ saja kemampuan dengan biaya terbatas.
+Saya dengan kerendahan hati mengakui, kualitas [video rekaman](https://www.instagram.com/p/CfPx-PGA-XG/) yang mungkin sudah ditonton di [Instagram](https://instagram.com/mnafisalmukhdi1) terlebih dahulu, tidak begitu bagus, tapi sampai di situ saja kemampuan dengan biaya terbatas.
 
-Pada awalnya, saya berniat untuk menjadikan video singkat ini sebagaimana *Weekend Update* di *Saturday Night Live*, *A Closer Look* di *Late Night with Seth Meyers*, *The Daily Show*, atau *Last Week Tonight with John Oliver*. Tapi setelah selesai rekaman panjang keempat yang saya kira sudah menjadi titik sempurna, nyatanya belum dan memilih untuk memuaskan diri dengan yang ada.
+Pada awalnya, saya berniat untuk menjadikan video singkat ini sebagaimana *[Weekend Update](https://en.wikipedia.org/wiki/Weekend_Update)* di *[Saturday Night Live](https://en.wikipedia.org/wiki/Saturday_Night_Live)*, *A Closer Look* di *[Late Night with Seth Meyers](https://en.wikipedia.org/wiki/Late_Night_with_Seth_Meyers)*, *[The Daily Show](https://en.wikipedia.org/wiki/The_Daily_Show)*, atau *[Last Week Tonight with John Oliver](https://en.wikipedia.org/wiki/Last_Week_Tonight)*. Tapi setelah selesai rekaman panjang keempat yang saya kira sudah menjadi titik sempurna, nyatanya belum dan memilih untuk memuaskan diri dengan yang ada.
 
 Keputusan ini saya ambil dengan alasan keterbatasan lain sehingga saya merasa harus menyelesaikannya dengan segera.
 
