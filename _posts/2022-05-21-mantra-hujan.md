@@ -2,6 +2,7 @@
 layout: post
 title: "Mamang Hujan - Cicibuk Banyu"
 author: mnafisalmukhdi1
+categories: Translating Song
 ---
 | Banjar | Indonesia |
 | --- | --- |
