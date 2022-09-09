@@ -2,6 +2,7 @@
 layout: post
 title: "Pemimpi Dewasa"
 author: mnafisalmukhdi1
+category: Poem
 ---
 Alienasi sedari dini. Tiada rodong. Pelat terundung. Selam samudra lelap. Individu tulen hanya berdasar.
 
