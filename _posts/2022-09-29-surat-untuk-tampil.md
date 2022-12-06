@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Surat Untuk Tampil"
+title: "Surat Untuk Tampil 🌈🕒🇮🇩"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Other
 ---
 Kertas bertulisan dibungkus rapi<br>
 Kuantar hingga dunia tepi<br>
