@@ -3,6 +3,9 @@ title: "Nafis' Blog"
 description: "Thanks for visiting!"
 author: "mnafisalmukhdi1"
 
+plugins:
+  - jekyll-feed
+
 permalink: /:title
 paginate: 20
 paginate_path       : /page/:num
