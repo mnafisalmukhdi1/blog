@@ -1,4 +1,4 @@
-url: https://blog.nafis1.my.id
+url: https://nafis1.my.id/blog
 title: "Nafis' Blog"
 description: "Thanks for visiting!"
 author: "mnafisalmukhdi1"
@@ -6,9 +6,9 @@ author: "mnafisalmukhdi1"
 plugins:
   - jekyll-feed
 
-permalink: /:title
+permalink: :title
 paginate: 20
-paginate_path       : /page/:num
+paginate_path       : page/:num
 
 collections:
   posts:
