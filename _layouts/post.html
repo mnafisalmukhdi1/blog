@@ -1,19 +1,44 @@
 ---
 layout: default
+comments: true
 ---
-<article class="prose">
-<h1 class="text-xl">{{page.title}}</h1>
-<h2 class="text-lg">Posted by {{page.author}} on {{page.date | date: "%A, %d %B %Y"}}</h2>
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
+<article>
+  <div class="mb-12">
+    <h1 class="text-xl dark:text-white">{{page.title}}</h1>
+    <h2 class="text-lg dark:text-white">Posted by {{page.author}} on {{page.date | date: "%A, %d %B %Y"}}</h2>
+    <div class="post-categories">
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
     {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="text-sky-500">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
-{{content}}
+    {% endif %}
+    {% for category in categories %}
+    <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="text-sky-500 dark:text-white underline hover:opacity-50">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+    </div>
+  </div>
+  <div class="space-y-2 dark:text-white">
+    {{content}}
+  </div>
 </article>
+<section>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    this.page.url = {{page.url}};
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://blog-nafis.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>

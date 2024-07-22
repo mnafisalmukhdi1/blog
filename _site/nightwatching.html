@@ -6,7 +6,7 @@
 	<meta name="author" content="mnafisalmukhdi1">
 	<title>Nightwatching oleh Tracy Sierra | Nafis' Blog</title>
 	<script src="https://cdn.tailwindcss.com"></script>
-	<script src="http://blog.nafis1.my.id/tailwind.config.js"></script>
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="all">
 	<link rel="shortcut icon" href="https://nafis1.my.id/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://nafis1.my.id/favicon.ico" type="image/x-icon">
@@ -14,36 +14,26 @@
 	<link rel="alternate" type="application/rss+xml" title="Nafis' Blog" href="http://localhost:4000/feed.xml">
 </head>
 
-	<body class="bg-slate-300">
-	<header>
-		<div class="text-center"><img src="https://nafis1.my.id/cdn/nafis-20234.jpg" alt="" class="w-32 rounded-full mx-auto shadow-lg"/></a>
-		<h1 class="text-3xl text-center my-auto">M. Nafis Al-Mukhdi</h1>
-		<h2 class="text-center">@mnafisalmukhdi1</h2>
-	</header>
-	<nav class="text-center my-1">
-		<a href="https://nafis1.my.id"><span class="material-icons">home</span></a>
-		<a href="https://nafis1.my.id/about.html"><span class="material-icons">person</span></a>
-		<a href="https://pddikti.kemdikbud.go.id/data_mahasiswa/RDlFM0I5QjgtMjA3Ri00NDcxLUFGREEtMjkwMTYwNTcyRjJD" target="_blank"><span class="material-icons">school</span></a>
-		<a href="https://blog.nafis1.my.id"><span class="material-icons">rss_feed</span></a>
-		<a href="https://nafis1.my.id/works/index.html"><span class="material-icons">book</span></a>
-		<a href="https://story.nafis1.my.id"><span class="material-icons">library_books</span></a>
-		<a href="https://nafis1.my.id/donate.html"><span class="material-icons">attach_money</span></a>
-	</nav>
-	<h3 class="text-lg text-center"><a href="https://blog.nafis1.my.id" class="underline">Blog</a></h3>
+	<body class="dark:bg-slate-900">
+	<header class="container mx-auto bg-gray-200 dark:bg-slate-800 py-5">
+		<h1 class="text-3xl text-center"><a href="/" class="underline dark:text-white">Nafis' Blog</a></h1>
 	</header>
 
 	<main class="mx-10 my-5">
-	<article class="prose">
-<h1 class="text-xl">Nightwatching oleh Tracy Sierra</h1>
-<h2 class="text-lg">Posted by mnafisalmukhdi1 on Sunday, 21 April 2024</h2>
-<div class="post-categories">
-  
-  
-  <a href="/categories/#Other" class="text-sky-500">Other</a>
-  
-  
-</div>
-<p>Di Amerika Serikat, terdapat sebuah acara bincang malam bernama The Tonight Show Starring Jimmy Fallon. Dari namanya saja, sudah dapat diketahui bahwa Jimmy Fallon menjadi pembawa acara tersebut.</p>
+	<article>
+  <div class="mb-12">
+    <h1 class="text-xl dark:text-white">Nightwatching oleh Tracy Sierra</h1>
+    <h2 class="text-lg dark:text-white">Posted by mnafisalmukhdi1 on Sunday, 21 April 2024</h2>
+    <div class="post-categories">
+    
+    
+    <a href="/categories/#Other" class="text-sky-500 dark:text-white underline hover:opacity-50">Other</a>
+    
+    
+    </div>
+  </div>
+  <div class="space-y-2 dark:text-white">
+    <p>Di Amerika Serikat, terdapat sebuah acara bincang malam bernama The Tonight Show Starring Jimmy Fallon. Dari namanya saja, sudah dapat diketahui bahwa Jimmy Fallon menjadi pembawa acara tersebut.</p>
 
 <p>Sudah menjadi tradisi tahunan bagi acara The Tonight Show untuk mengadakan Summer Reads, dan beberapa tahun terakhir dinamai sebagai Fallon Book Club. Biasanya, sebuah buku dipilih oleh Jimmy Fallon berdasarkan beberapa saran, kemudian salah satu buku dipilih untuk dibaca bersama.</p>
 
@@ -67,12 +57,32 @@
 
 <p>Oh ya, jika kamu ternyata membaca novel Nightwatching oleh Tracy Sierra ini, bagikan pendapatmu. Aku ingin membacanya.</p>
 
+  </div>
 </article>
-
+<section>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    this.page.url = /nightwatching;
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://blog-nafis.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 	</main>
-	<footer class="text-center">
-	<div class="flex justify-center"><div><a href="https://www.hitwebcounter.com" target="_blank"><img src="https://hitwebcounter.com/counter/counter.php?page=7992964&style=0006&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter" border="0" /></a></div></div>
-	<h6 class="block text-gray-700">&copy; 2024 <a href="http://localhost:4000" class="underline">Nafis' Blog</a></h6>
+	<footer class="container mx-auto bg-gray-200 dark:bg-slate-800">
+	<div class="flex justify-center"><script type="text/javascript" src="https://cdn.trakteer.id/js/embed/trbtn.min.js?date=18-11-2023"></script><script type="text/javascript">(function(){var trbtnId=trbtn.init('Dukung Saya di Trakteer','#be1e2d','https://trakteer.id/mnafisalmukhdi1','https://cdn.trakteer.id/images/embed/trbtn-icon.png?date=18-11-2023','40');trbtn.draw(trbtnId);})();</script></div>
+	<h6 class="text-center dark:text-white">&copy; 2024 <a href="http://localhost:4000" class="underline">Nafis' Blog</a></h6>
 </footer>
 </body>
 

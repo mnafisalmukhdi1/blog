@@ -4,28 +4,26 @@ title: "Home"
 ---
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-	<div class="flex">
-		<div class="flex-1">
-			<h2 class="text-xl"><a href="{{ post.url }}" class="underline">{{ post.title }}</a></h2>
-		</div>
-		<span class="order-last text-gray-500">{{ post.date | date: "%b %d, %y" }}</span>
-	</div>
+  <div class="container mb-12">
+    <div class="dark:text-white">{{ post.date | date: "%B %d, %Y" }}</div>
+    <h2 class="text-2xl block"><a href="{{ post.url }}" class="text-sky-500 dark:text-white hover:opacity-50">{{ post.title }}</a></h2>
+  </div>
   {% endfor %}
 
 <!-- Pagination links -->
 <div class="flex justify-between my-5">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="order-1">
+    <a href="{{ paginator.previous_page_path }}" class="order-1 dark:text-white underline hover:opacity-50">
       Previous
     </a>
   {% else %}
     <span class="order-1 text-gray-500">Previous</span>
   {% endif %}
-  <span class="order-2">
+  <span class="order-2 dark:text-white">
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="order-last">Next</a>
+    <a href="{{ paginator.next_page_path }}" class="order-last dark:text-white underline hover:opacity-50">Next</a>
   {% else %}
     <span class="order-last text-gray-500">Next</span>
   {% endif %}
