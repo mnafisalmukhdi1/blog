@@ -15,8 +15,9 @@ title: Categories
     <h3 class="category-head text-xl">{{ category_name }}</h3>
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4 class="text-lg"><a href="{{ site.baseurl }}{{ post.url }}" class="underline">{{post.title}}</a></h4>
+    <article class="archive-item container mb-12">
+      <div class="dark:text-white">{{ post.date | date: "%B %d, %Y" }}</div>
+      <h2 class="text-2xl block"><a href="{{ post.url }}" class="text-sky-500 dark:text-white hover:opacity-50">{{ post.title }}</a></h2>
     </article>
     {% endfor %}
   </div>
