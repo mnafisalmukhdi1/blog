@@ -2,13 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./*.html",
-    "./_layouts/**/*.html",
-    "./_includes/**/*.html",
-    "./_posts/**/*.md",
-    "./_site/**/*.html"
-  ],
+  content: ["./_site/**/*.html", "./*.html", "./_layouts/**/*.html", "./_includes/**/*.html"], theme: { extend: {} },
   theme: {
     extend: {},
   },
