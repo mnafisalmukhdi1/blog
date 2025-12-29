@@ -2,16 +2,16 @@
 @tailwind components;
 
 @layer components {
-  .prose h1 {
-    @apply text-4xl font-bold tracking-tight text-gray-900 !important;
+  .prose :where(h1):not(:where([class~="not-prose"] *)) {
+    @apply text-4xl font-bold tracking-tight text-gray-900;
   }
-  .prose h2 {
+  .prose :where(h2):not(:where([class~="not-prose"] *)) {
     @apply text-3xl font-semibold mt-6 mb-4 text-gray-800 !important;
   }
-  .prose h3 {
+  .prose :where(h3):not(:where([class~="not-prose"] *)) {
     @apply text-2xl font-medium mt-4 mb-2 text-gray-700 !important;
   }
-  .prose blockquote {
+  .prose :where(blockquote):not(:where([class~="not-prose"] *)) {
     @apply border-l-4 border-indigo-500 pl-4 italic text-gray-700 bg-indigo-50 rounded-md my-4 !important;
   }
 }
