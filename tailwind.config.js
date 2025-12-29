@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./_site/**/*.html", "./*.html", "./_layouts/**/*.html", "./_includes/**/*.html"], theme: { extend: {} },
   theme: {
     extend: {},
   },
@@ -13,4 +13,3 @@ module.exports = {
     require('@tailwindcss/container-queries'),
   ],
 }
-

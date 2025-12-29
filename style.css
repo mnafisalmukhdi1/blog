@@ -1,17 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
-
-@layer utilities {
-  .arab {
-    font-family: 'Amiri', serif;
-    direction: rtl;       /* not text-direction */
-    text-align: right;    /* optional */
-  }
-}
-
 @layer base {
   .prose h1 {
     @apply text-4xl font-bold tracking-tight text-gray-900;
@@ -24,5 +11,15 @@
   }
   .prose blockquote {
     @apply border-l-4 border-indigo-500 pl-4 italic text-gray-700 bg-indigo-50 rounded-md my-4;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@layer utilities {
+  .arab {
+    font-family: 'Amiri', serif;
+    direction: rtl;       /* not text-direction */
+    text-align: right;    /* optional */
   }
 }
