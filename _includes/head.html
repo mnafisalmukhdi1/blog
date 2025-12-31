@@ -17,8 +17,32 @@
 	<meta name="twitter:image" content="https://image.thum.io/get/maxAge/12/width/700/https://blog.nafis1.my.id">
 	<title>{{page.title}} | {{site.title}}</title>
 	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	<style>
+	/* Fallback heading styles if Tailwind components aren't compiled */
+	.prose h1 { font-size: 2.25rem; font-weight:700; line-height:1.2; color:#111827; margin:0 0 0.5rem; }
+	.prose h2 { font-size: 1.75rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.75rem; color:#374151; }
+	.prose h3 { font-size: 1.5rem; font-weight:500; margin-top:1rem; margin-bottom:0.5rem; color:#4b5563; }
+	.prose blockquote { border-left:4px solid #6366f1; padding-left:1rem; background:#eef2ff; color:#374151; border-radius:0.375rem; font-style:italic; margin:1rem 0; }
+	/* Arabic improvements */
+	.arabic { font-family: 'Amiri', serif; direction: rtl; unicode-bidi: embed; }
+	</style>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="all">
+	<script>
+	// Auto-detect Arabic text inside .prose and mark it for RTL + font
+	document.addEventListener('DOMContentLoaded', function(){
+	  const arabicRegex = /[\u0600-\u06FF]/;
+	  document.querySelectorAll('.prose *').forEach(el => {
+	    if (el.children.length === 0 && arabicRegex.test(el.textContent.trim())) {
+	      el.classList.add('arabic');
+	      el.setAttribute('dir','rtl');
+	    }
+	  });
+	});
+	</script>
 	<link rel="shortcut icon" href="https://nafis1.my.id/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://nafis1.my.id/favicon.ico" type="image/x-icon">
 	<link rel="canonical" href="https://blog.nafis1.my.id">

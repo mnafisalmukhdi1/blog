@@ -1,0 +1,45 @@
+name: Build Tailwind CSS
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install Tailwind CLI
+      run: npm install -D tailwindcss postcss autoprefixer
+
+    - name: Build CSS with Tailwind
+      run: npx tailwindcss -i ./style.css -o ./style.generated.css --minify --config tailwind.config.js
+
+    - name: Commit and push compiled CSS if changed
+      env:
+        GIT_AUTHOR_NAME: github-actions[bot]
+        GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+      run: |
+        if [ -f style.generated.css ]; then
+          if ! cmp -s style.generated.css style.css; then
+            mv style.generated.css style.css
+            git add style.css
+            git commit -m "build: compile tailwind CSS" || echo "No changes to commit"
+            git push
+          else
+            echo "No changes in compiled CSS"
+          fi
+        else
+          echo "style.generated.css not found"
+        fi
