@@ -3,27 +3,35 @@ layout: default
 title: "Home"
 ---
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="container mb-12">
-    <!-- Tanggal -->
-    <div class="text-sm text-gray-600 dark:text-gray-400">
-      {{ post.date | date: "%d %B %Y" }}
-    </div>
-    <!-- Judul -->
-    <h2 class="text-2xl font-bold mb-2">
-      <a href="{{ post.url }}" class="text-sky-500 dark:text-white hover:opacity-50">
-        {{ post.title }}
+<main class="max-w-6xl mx-auto px-4 py-8">
+  <div class="flex flex-wrap justify-center md:justify-start gap-6">
+    {% for post in paginator.posts %}
+    <!-- Post Card -->
+    <div class="w-full md:w-80 bg-white dark:bg-slate-900 shadow-md rounded overflow-hidden">
+      <a href="{{ post.url }}">
+        <div class="p-4">
+          <!-- Judul -->
+          <h2 class="text-lg font-bold mb-2 text-teal-900 dark:text-teal-300">
+            {{ post.title }}
+          </h2>
+          <!-- Tanggal -->
+          <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">
+            {{ post.date | date: "%d %B %Y" }}
+          </p>
+          <!-- Preview konten (tanpa gambar, dipotong) -->
+          <p class="text-sm mb-4 text-gray-700 dark:text-gray-300">
+            {{ post.content | strip_html | truncatewords: 30, '...' }}
+          </p>
+          <!-- Tombol -->
+          <span class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">
+            Read More
+          </span>
+        </div>
       </a>
-    </h2>
-    <!-- Preview konten (tanpa gambar, dipotong) -->
-    <p class="text-gray-700 dark:text-gray-300 mb-4">
-      {{ post.content | strip_html | truncatewords: 30, '...' }}
-    </p>
-    <!-- Tombol baca selengkapnya -->
-    <a href="{{ post.url }}" class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">
-      Baca Selengkapnya
-    </a>
+    </div>
+    {% endfor %}
   </div>
+</main>
 {% endfor %}
 
 
