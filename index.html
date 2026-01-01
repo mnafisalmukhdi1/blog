@@ -5,10 +5,27 @@ title: "Home"
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <div class="container mb-12">
-    <div class="dark:text-white">{{ post.date | date: "%B %d, %Y" }}</div>
-    <h2 class="text-2xl block"><a href="{{ post.url }}" class="text-sky-500 dark:text-white hover:opacity-50">{{ post.title }}</a></h2>
+    <!-- Tanggal -->
+    <div class="text-sm text-gray-600 dark:text-gray-400">
+      {{ post.date | date: "%d %B %Y" }}
+    </div>
+    <!-- Judul -->
+    <h2 class="text-2xl font-bold mb-2">
+      <a href="{{ post.url }}" class="text-sky-500 dark:text-white hover:opacity-50">
+        {{ post.title }}
+      </a>
+    </h2>
+    <!-- Preview konten (tanpa gambar, dipotong) -->
+    <p class="text-gray-700 dark:text-gray-300 mb-4">
+      {{ post.content | strip_html | truncatewords: 30, '...' }}
+    </p>
+    <!-- Tombol baca selengkapnya -->
+    <a href="{{ post.url }}" class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">
+      Baca Selengkapnya
+    </a>
   </div>
-  {% endfor %}
+{% endfor %}
+
 
 <!-- Pagination links -->
 <div class="flex justify-between my-5">
