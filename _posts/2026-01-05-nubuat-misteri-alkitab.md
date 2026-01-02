@@ -4,6 +4,7 @@ title: "Nubuat-Nubuat dalam Alkitab: Misteri yang Menanti Penggenapan"
 author: mnafisalmukhdi1
 categories: Krislamologi
 ---
+Postingan ini dipercantik oleh AI. Yang asli ada di [sini](https://blog.nafis1.my.id/indikasi-nabi-muhammad).
 **Bagian 1: Janji kepada Abraham dan Ismael**
 
 Di bawah langit bertabur bintang, suatu perjanjian abadi diteguhkan. Bukan hanya melalui Ishak yang akan melahirkan bangsa terpilih, tetapi juga melalui Ismael, yang akan menjadi bangsa besar dengan dua belas pemimpin. Firman Tuhan dalam Kejadian 17:19-20 menegaskan:

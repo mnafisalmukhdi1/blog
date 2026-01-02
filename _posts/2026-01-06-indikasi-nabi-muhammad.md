@@ -4,6 +4,7 @@ title: "Kemungkinan Indikasi Nabi Muhammad dalam Bible"
 author: mnafisalmukhdi1
 categories: Krislamologi
 ---
+Berikut hanyalah kutipan-kutipan ayat. Adapun penjelasan bisa ditonton di [video ini](https://www.youtube.com/watch?v=UyHuI02BsuI).
 > Kejadian 15:5 Lalu TUHAN membawa Abram ke luar serta berfirman: "Coba lihat ke langit, hitunglah bintang-bintang, jika engkau dapat menghitungnya." Maka firman-Nya kepadanya: "Demikianlah banyaknya nanti keturunanmu."
 
 > Kejadian 17:6 Aku akan membuat engkau beranak cucu sangat banyak; engkau akan Kubuat menjadi bangsa-bangsa, dan dari padamu akan berasal raja-raja.
