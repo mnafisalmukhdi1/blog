@@ -7,14 +7,15 @@ title: "Categories"
   <h1 class="text-3xl font-bold">Categories</h1>
   <p class="text-lg mt-2">Browse writing based on the topic</p>
 </header>
+<!-- Navigation -->
+<nav class="bg-white dark:bg-slate-800 shadow-sm py-4 flex flex-wrap justify-center gap-6 text-teal-900 dark:text-teal-300 font-semibold uppercase">
+  {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+      <a href="#{{ category_name | slugify }}" class="hover:text-teal-600 dark:hover:text-teal-400">{{ category_name }}</a>
+    {% endfor %}
+</nav>
+<!-- Main -->
 <main class="max-w-6xl mx-auto px-4 py-8">
-  <!-- Navigation-->
-  <nav class="bg-white dark:bg-slate-800 shadow-sm py-4 flex flex-wrap justify-center gap-6 text-teal-900 dark:text-teal-300 font-semibold uppercase">
-      {% for category in site.categories %}
-        {% capture category_name %}{{ category | first }}{% endcapture %}
-        <a href="#{{ category_name | slugify }}" class="hover:text-teal-600 dark:hover:text-teal-400">{{ category_name }}</a>
-      {% endfor %}
-  </nav>
   {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <h2 id="{{ category_name | slugify }}" class="text-2xl font-bold text-teal-900 dark:text-teal-300 mb-4">
