@@ -7,16 +7,18 @@ comments: true
     <h1 class="text-3xl dark:text-white">{{page.title}}</h1>
     <h2 class="text-2xl dark:text-white">Posted by {{page.author}} on {{page.date | date: "%A, %d %B %Y"}}</h2>
     <div class="post-categories">
-    {% if post %}
-      {% assign categories = post.categories %}
-    {% else %}
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
     {% assign categories = page.categories %}
-    {% endif %}
-    {% for category in categories %}
-    <a href="{{site.baseurl}}/categories/#{{category_name|slugify}}" class="text-sky-500 dark:text-white underline hover:opacity-50">{{category}}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
-    </div>
+  {% endif %}
+  {% for category in categories %}
+    <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="underline">
+      {{ category }}
+    </a>
+  {% endfor %}
+</div>
+
   </div>
   <div class="prose space-y-2 dark:text-white">
     {{content}}
