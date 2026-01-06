@@ -1,25 +1,45 @@
 ---
 layout: default
-permalink: /categories/
-title: Categories
+permalink: "/categories/"
+title: "Categories"
 ---
 
+{% include header.html %}
 
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
+<header class="bg-teal-900 text-white py-6 text-center">
+  <h1 class="text-3xl font-bold">Categories</h1>
+  <p class="text-lg mt-2">Browse writing based on the topic</p>
+</header>
+
+<main class="max-w-6xl mx-auto px-4 py-8">
+  {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
+    <h2 id="{{ category_name | slugify }}" class="text-2xl font-bold text-teal-900 dark:text-teal-300 mb-4">
+      {{ category_name }}
+    </h2>
 
-    <h1 class="category-head text-3xl dark:text-white">{{ category_name }}</h1>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item container mb-12">
-      <div class="dark:text-white">{{ post.date | date: "%B %d, %Y" }}</div>
-      <h2 class="text-2xl block"><a href="{{ post.url }}" class="text-sky-500 dark:text-white hover:opacity-50">{{ post.title }}</a></h2>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
-</div>
+    <div class="flex flex-wrap justify-center md:justify-start gap-6 mb-12">
+      {% for post in site.categories[category_name] %}
+      <!-- Post Card -->
+      <div class="w-full md:w-80 bg-white dark:bg-slate-900 shadow-md rounded overflow-hidden">
+        <a href="{{ post.url }}">
+          <div class="p-4">
+            <!-- Title -->
+            <h3 class="text-lg font-bold mb-2 text-teal-900 dark:text-teal-300">{{ post.title }}</h3>
+            <!-- Date -->
+            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">{{ post.date | date: "%d %B %Y" }}</p>
+            <!-- Preview -->
+            <p class="text-sm mb-4 text-gray-700 dark:text-gray-300">
+              {{ post.content | strip_html | truncatewords: 25, '...' }}
+            </p>
+            <!-- Button -->
+            <span class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">
+              Read More
+            </span>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</main>
