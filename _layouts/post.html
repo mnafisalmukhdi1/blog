@@ -13,7 +13,7 @@ comments: true
     {% assign categories = page.categories %}
     {% endif %}
     {% for category in categories %}
-    <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="text-sky-500 dark:text-white underline hover:opacity-50">{{category}}</a>
+    <a href="{{site.baseurl}}/categories/#{{category_name|slugify}}" class="text-sky-500 dark:text-white underline hover:opacity-50">{{category}}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
     </div>
