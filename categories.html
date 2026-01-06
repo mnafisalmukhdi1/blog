@@ -9,13 +9,11 @@ title: "Categories"
 </header>
 <main class="max-w-6xl mx-auto px-4 py-8">
   <!-- Navigation-->
-  <nav class="mb-8 text-center">
-    <ul class="flex flex-wrap justify-center gap-4">
+  <nav class="bg-white dark:bg-slate-800 shadow-sm py-4 flex flex-wrap justify-center gap-6 text-teal-900 dark:text-teal-300 font-semibold uppercase">
       {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <li><a href="#{{ category_name | slugify }}" class="px-3 py-1 bg-teal-900 dark:bg-teal-700 text-white rounded hover:opacity-75">{{ category_name }}</a></li>
+        <a href="#{{ category_name | slugify }}" class="hover:text-teal-600 dark:hover:text-teal-400">{{ category_name }}</a>
       {% endfor %}
-    </ul>
   </nav>
   {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
