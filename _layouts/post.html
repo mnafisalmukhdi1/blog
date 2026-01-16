@@ -5,7 +5,7 @@ comments: true
 <article>
   <div class="mb-12">
     <h1 class="text-3xl dark:text-white">{{page.title}}</h1>
-    <h2 class="text-2xl dark:text-white">Diposting oleh {{page.author}} pada {% assign hari_index = page.date | date: "%w" %}{% assign bulan_index = page.date | date: "%-m" | minus: 1 %}{{ site.hari[hari_index] }}, {{ page.date | date: "%d" }} {{ site.bulan[bulan_index] }} {{ page.date | date: "%Y"}}</h2>
+    <h2 class="text-2xl dark:text-white">Diposting oleh {{page.author}} pada {% if page.date %}{% assign hari_index = page.date | date: "%w" %}{% assign bulan_index = page.date | date: "%-m" | minus: 1 %}{% if site.hari[hari_index] %}{{ site.hari[hari_index] }}, {% endif %}{{ page.date | date: "%d" }} {% if site.bulan[bulan_index] %}{{ site.bulan[bulan_index] }} {% endif %}{{ page.date | date: "%Y"}}{% endif %}</h2>
     <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
