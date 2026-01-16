@@ -2,7 +2,7 @@
 layout: post
 title: "Semesta (Yang Nyaman)"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Nyenyak<br>
 Alunan menghanyutkan<br>

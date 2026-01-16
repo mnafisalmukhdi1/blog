@@ -2,7 +2,7 @@
 layout: post
 title: "NIJISANJI ID - into reality (Banjar)"
 author: mnafisalmukhdi1
-categories: Translating-Song
+categories: Terjemahan Lagu
 ---
 Bahindala marangkai ingatan<br>
 Dalam alam khayalan ngini kita baasa<br>

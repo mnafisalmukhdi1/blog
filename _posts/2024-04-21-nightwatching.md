@@ -2,7 +2,7 @@
 layout: post
 title: "Nightwatching oleh Tracy Sierra"
 author: mnafisalmukhdi1
-categories: Other
+categories: Lainnya
 ---
 Di Amerika Serikat, terdapat sebuah acara bincang malam bernama The Tonight Show Starring Jimmy Fallon. Dari namanya saja, sudah dapat diketahui bahwa Jimmy Fallon menjadi pembawa acara tersebut.
 

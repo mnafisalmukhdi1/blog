@@ -2,7 +2,7 @@
 layout: post
 title: "Suara Hina"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 <p>[Instrumental Intro]</p>
 

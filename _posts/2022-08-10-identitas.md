@@ -2,7 +2,7 @@
 layout: post
 title: "Identitas"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Alam khayal<br>
 Dimensi virtual<br>

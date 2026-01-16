@@ -2,7 +2,7 @@
 layout: post
 title: "Warkat 'tuk Ramanda"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pesan
 ---
 Pujaan kepada Tuhan Yang Maha Esa lagi Maha Kuasa senantiasa mengawali setiap perbuatan juga kegiatan yang terlaksana. Dari-Nya pulalah ketetapan bermula bahwa seorang insan akan muncul ke alam dunia. Ketika makhluk itu mengenal kehidupan, saat itu jua dia diberi doa, agar menjadi seorang yang berharga.
 

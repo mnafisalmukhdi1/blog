@@ -2,7 +2,7 @@
 layout: post
 title: "Semesta (Permata Indah)"
 author: mnafisalmukhdi1
-categories: [Poem, Mine]
+categories: [Puisi, Pribadi]
 ---
 Beragam teori muncul, bagaimana ia tercipta<br>
 Setitik air dan tanah, teruslah menerka<br>

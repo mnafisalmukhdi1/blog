@@ -2,7 +2,7 @@
 layout: post
 title: "#SocialMedia4Peace"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 Media sosial, menjadi sarana digital bagi manusia untuk berinteraksi satu sama lain, tanpa harus mengenal ruang dan waktu. Itu berarti, kita akan menemui beragam individu yang terjadi karena adanya perbedaan, baik jenis kelamin, suku, agama, ras, dan lain-lain.
 

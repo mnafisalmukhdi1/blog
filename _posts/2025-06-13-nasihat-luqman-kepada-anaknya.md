@@ -2,7 +2,7 @@
 layout: post
 title: "Nasihat Luqman al-Hakim kepada anaknya"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pesan
 ---
 Bukan Nabi, bukan Rasul, namun namanya disebut dalam Al-Qur'an. Siapakah dia?
 

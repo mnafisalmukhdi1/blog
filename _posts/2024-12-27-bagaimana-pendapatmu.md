@@ -2,7 +2,7 @@
 layout: post
 title: "Bagaimana Pendapatmu?"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 Bulan Dzulhijjah selaku bulan terakhir dalam kalender Islam tidak terlepas dari peristiwa-peristiwa penting yang terjadi di dalamnya. Lebih dari satu juta orang yang memeluk agama kedamaian ini memenuhi panggilan Sang Pencipta untuk berhadir lagi berjumpa dengan manusia lain pula pada sebuah tempat yang penuh dengan sejarah. Dimulai dengan kisah terciptanya Sumur Zam-zam, Peristiwa Sa'i dan Pelontaran Jumrah. Sang protagonis yang menjadi awal cerita, namanya selalu disebut dalam setiap pengabdian harian oleh para pengikutnya.
 

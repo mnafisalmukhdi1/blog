@@ -2,7 +2,7 @@
 layout: post
 title: "Islamic Suicidal Prevention"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pesan
 ---
 Bismillahirrahmanirrahim.
 

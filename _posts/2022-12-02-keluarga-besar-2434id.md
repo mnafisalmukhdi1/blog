@@ -2,7 +2,7 @@
 layout: post
 title: "Keluarga Besar 🌈🕒🇮🇩"
 author: mnafisalmukhdi1
-categories: Other
+categories: Lainnya
 ---
 Bermimpi menjadi idola<br>
 Sang pemilik usaha<br>

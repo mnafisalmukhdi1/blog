@@ -2,7 +2,7 @@
 layout: post
 title: "Ruang Bawah Tanah"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Terbenam dalam bentala<br>
 Sinar tiada menyala<br>

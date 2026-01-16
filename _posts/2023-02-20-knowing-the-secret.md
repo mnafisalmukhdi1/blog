@@ -2,7 +2,7 @@
 layout: post
 title: "Knowing The Secret"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Berenang mengarungi samudra<br>
 Menyelam menuju palung tak terhingga<br>

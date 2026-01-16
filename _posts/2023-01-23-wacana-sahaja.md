@@ -2,7 +2,7 @@
 layout: post
 title: "Wacana Sahaja"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Segala kata yang engkau sampaikan pada dulu kala<br>
 Akankah sepatah saja akan menjadi nyata?<br>

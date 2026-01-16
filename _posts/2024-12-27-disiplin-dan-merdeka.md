@@ -2,7 +2,7 @@
 layout: post
 title: "Disiplin dan Merdeka"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 Sekolah sebagai dunia kedua bagi anak-anak, menitikberatkan posisi seorang guru agar menjadi tidak hanya sekadar pengajar, namun juga agar dapat menciptakan kebiasaan baik yang dapat dilaksanakan peserta didik. Hal ini agar terbentuknya pribadi murid yang berkarakter selaras dengan kandungan Pancasila sebagai bentuk tanggung jawab moral seorang guru. Tanggung jawab moral tersebut juga meliputi apresiasi terhadap tindakan yang baik, dan konsekuensi terhadap tindakan yang belum baik.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Love Diary: Deserved to be loved"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 Cinta. Sampai usia sekarang aku masih belum bisa menjelaskannya. Bahkan rasanya seperti apa aku belum memahaminya.
 

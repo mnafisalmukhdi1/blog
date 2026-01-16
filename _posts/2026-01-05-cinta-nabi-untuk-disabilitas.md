@@ -2,7 +2,7 @@
 layout: post
 title: "Cinta Nabi untuk Disabilitas"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pesan
 ---
 ## Kisah 1
 Rasulullah, Nabi Muhammad ﷺ sedang sibuk berdakwah kepada para pembesar Quraisy yang musyrik saat itu. Mereka adalah Utbah, Syaibah, Abu Jahl, dan Walid bin Mughirah. Tentunya beliau mengajak agar mereka beriman dan memeluk agama Islam. Nabi sungguh mengharapkan agar mereka mendapat petunjuk agar menyucikan hati mereka.

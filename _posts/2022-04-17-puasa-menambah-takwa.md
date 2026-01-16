@@ -2,7 +2,7 @@
 layout: post
 title: "Puasa Menambah Takwa"
 author: mnafisalmukhdi1
-categories: Message
+categories: Pesan
 ---
 Bismillah. Walhamdulillah. Wash-shalatu wassalamu 'ala Rasulillah. Amma ba'du.
 

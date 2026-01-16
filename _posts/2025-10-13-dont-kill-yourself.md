@@ -2,7 +2,7 @@
 layout: post
 title: "Don't Kill Yourself, Allah Loves You"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pesan
 ---
 وَلَا تَقْتُلُوْٓا اَنْفُسَكُمْۗ اِنَّ اللّٰهَ كَانَ بِكُمْ رَحِيْمًا ۝٢٩
 

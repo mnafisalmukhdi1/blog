@@ -2,7 +2,7 @@
 layout: post
 title: "Menulis Novel ala Nanowrimo"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 "Ingin menulis novel, tetapi bingung mau mulai dari mana? Lembar kerja jadi salah satu solusinya!"
 

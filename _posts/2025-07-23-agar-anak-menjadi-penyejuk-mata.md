@@ -2,7 +2,7 @@
 layout: post
 title: "Agar Anak Menjadi Penyejuk Mata"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pesan
 ---
 Agar anak menjadi penyejuk mata
 

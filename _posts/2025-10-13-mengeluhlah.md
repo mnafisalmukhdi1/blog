@@ -2,7 +2,7 @@
 layout: post
 title: "Mengeluhlah"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pesan
 ---
 Mereka berkata, “Mengeluh itu hanya dilakukan oleh orang-orang yang imannya lemah dan ada doa sendiri untuk minta dijauhkan darinya.”
 

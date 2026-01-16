@@ -2,7 +2,7 @@
 layout: post
 title: "Membaca Awal Ilmu"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 "Bacalah!" Begitulah Malaikat Jibril ketika menyampaikan wahyu dari Allah kepada Nabi Muhammad di Gua Hira, yang mengawali sebuah perjalanan selama kurang lebih 23 tahun dalam menyebarkan kedamaian untuk keselamatan dengan cara menyerahkan diri kepada Tuhan. Termaktub dalam Q.S. Al-'Alaq[96]:1, di ayat yang sama pula agar kegiatan tersebut tidak terpisahkan dari mengingat Tuhan yang menciptakan.
 

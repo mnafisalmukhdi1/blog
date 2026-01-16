@@ -2,7 +2,7 @@
 layout: post
 title: "Pertanyaan"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Aku memang berbeda<br>
 Aku tidaklah sama dengan mereka<br>

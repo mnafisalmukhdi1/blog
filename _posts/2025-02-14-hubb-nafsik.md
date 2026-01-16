@@ -2,7 +2,7 @@
 layout: post
 title: "Hubb Nafsik"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 Kamu, sebagai seorang manusia, telah diciptakan dengan bentuk dan rupa yang sebaik-baiknya. Karenanya, kamu harus bersyukur atas hal tersebut agar nikmat terus bertambah.
 

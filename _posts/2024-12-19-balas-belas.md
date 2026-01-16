@@ -2,7 +2,7 @@
 layout: post
 title: "Balas Belas"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Rangkaian kata kembali kucoba untuk dimainkan<br>
 Akankah cara yang tepat agar perasaan tersampaikan?<br>

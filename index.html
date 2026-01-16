@@ -16,7 +16,7 @@ title: "Home"
           </h2>
           <!-- Tanggal -->
           <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">
-            {{ post.date | date: "%d %B %Y" }}
+            {% assign bulan_index = post.date | date: "%-m" | minus: 1 %}{{ post.date | date: "%d" }} {{ site.bulan[bulan_index] }} {{ post.date | date: "%Y" }}
           </p>
           <!-- Preview konten (tanpa gambar, dipotong) -->
           <p class="text-sm mb-4 text-gray-700 dark:text-gray-300">
@@ -24,7 +24,7 @@ title: "Home"
           </p>
           <!-- Tombol -->
           <span class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">
-            Read More
+            Selengkapnya
           </span>
         </div>
       </a>
@@ -37,17 +37,17 @@ title: "Home"
 <div class="flex justify-between my-5">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="order-1 dark:text-white underline hover:opacity-50">
-      Previous
+      Sebelumnya
     </a>
   {% else %}
-    <span class="order-1 text-gray-500">Previous</span>
+    <span class="order-1 text-gray-500">Sebelumnya</span>
   {% endif %}
   <span class="order-2 dark:text-white">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    Halaman: {{ paginator.page }} dari {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="order-last dark:text-white underline hover:opacity-50">Next</a>
+    <a href="{{ paginator.next_page_path }}" class="order-last dark:text-white underline hover:opacity-50">Selanjutnya</a>
   {% else %}
-    <span class="order-last text-gray-500">Next</span>
+    <span class="order-last text-gray-500">Sesudahnya</span>
   {% endif %}
 </div>

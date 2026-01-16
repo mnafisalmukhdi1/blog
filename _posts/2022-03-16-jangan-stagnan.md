@@ -2,7 +2,7 @@
 layout: post
 title: "Jangan Stagnan"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Pada awalnya, lingkaran tidak bisa dihampiri<br>
 Dalam sel, tunggal diri<br>

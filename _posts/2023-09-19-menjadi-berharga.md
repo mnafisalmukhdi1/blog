@@ -2,7 +2,7 @@
 layout: post
 title: "Menjadi Berharga"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 Assalamu 'alaikum warahmatullahi wabarakatuh. Bagaimana kabar kalian? Terima kasih telah menyempatkan waktu untuk berkunjung ke tulisanku yang satu ini.
 

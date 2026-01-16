@@ -2,7 +2,7 @@
 layout: post
 title: "Kepompong"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Selimut yang hangat menjadi pelindung<br>
 Engkau berteduh di tempat yang naung<br>

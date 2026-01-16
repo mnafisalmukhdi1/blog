@@ -2,7 +2,7 @@
 layout: post
 title: "Bus Kuning"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Sejumlah halte ditempuh<br>
 Menerbangkan dedaunan rapuh<br>

@@ -2,7 +2,7 @@
 layout: post
 title: "Telatah Sumurung"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 "Perjuangan yang sebenarnya bermula tatkala perkuliahan sudah selesai." Demikianlah perkataan orang-orang yang sering saya dengar. Setelah diwisuda, saya anggap manusiawi jika seseorang mencoba mencari peruntungan untuk menghidupi diri sendiri, salah satunya melalui Instagram.
 

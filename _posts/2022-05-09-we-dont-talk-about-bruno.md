@@ -2,7 +2,7 @@
 layout: post
 title: "Indah Mamandir Bruno"
 author: mnafisalmukhdi1
-categories: Translating-Song
+categories: Terjemahan Lagu
 ---
 Indah mamandir Bruno<br>
 Indah mamandir Bruno<br>

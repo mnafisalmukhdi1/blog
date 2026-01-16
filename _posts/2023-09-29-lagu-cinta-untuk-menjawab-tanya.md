@@ -2,7 +2,7 @@
 layout: post
 title: "Lagu Cinta untuk Menjawab Tanya"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 "Apa itu cinta?"
 

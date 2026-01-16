@@ -2,7 +2,7 @@
 layout: post
 title: "Ruang Kebosanan"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Akhir dari yang engkau cintai<br>
 Semakin mendekat di hadapan<br>

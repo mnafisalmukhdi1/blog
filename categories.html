@@ -4,8 +4,8 @@ permalink: "/categories/"
 title: "Categories"
 ---
 <header class="bg-teal-900 text-white py-6 text-center">
-  <h1 class="text-3xl font-bold">Categories</h1>
-  <p class="text-lg mt-2">Browse writing based on the topic</p>
+  <h1 class="text-3xl font-bold">Kategori</h1>
+  <p class="text-lg mt-2">Jelajahi tulisan berdasarkan topik</p>
 </header>
 <!-- Navigation -->
 <nav class="bg-white dark:bg-slate-800 shadow-sm py-4 flex flex-wrap justify-center gap-6 text-teal-900 dark:text-teal-300 font-semibold uppercase">
@@ -31,14 +31,14 @@ title: "Categories"
             <!-- Title -->
             <h3 class="text-lg font-bold mb-2 text-teal-900 dark:text-teal-300">{{ post.title }}</h3>
             <!-- Date -->
-            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">{{ post.date | date: "%d %B %Y" }}</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">{% assign bulan_index = post.date | date: "%-m" | minus: 1 %}{{ post.date | date: "%d" }} {{ site.bulan[bulan_index] }} {{ post.date | date: "%Y" }}</p>
             <!-- Preview -->
             <p class="text-sm mb-4 text-gray-700 dark:text-gray-300">
               {{ post.content | strip_html | truncatewords: 25, '...' }}
             </p>
             <!-- Button -->
             <span class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">
-              Read More
+              Selengkapnya
             </span>
           </div>
         </a>

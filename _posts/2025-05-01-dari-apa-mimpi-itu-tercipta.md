@@ -2,7 +2,7 @@
 layout: post
 title: "Dari Apa Mimpi Itu Tercipta?"
 author: mnafisalmukhdi1
-categories: Mine
+categories: Pribadi
 ---
 Sebuah pertanyaan mulai mencantol di dalam kepala. Seiring bunga tidur disadari keberadaannya, beragam kejadian unik seakan disediakan sebagai sebuah penghibur bagi lara. Hanya saja, dari mana asalnya?
 

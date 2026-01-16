@@ -2,7 +2,7 @@
 layout: post
 title: "Indefinitif"
 author: mnafisalmukhdi1
-categories: Poem
+categories: Puisi
 ---
 Kalender dirobek atau dibalik<br>
 Tanggal dicoret dengan warna menarik<br>

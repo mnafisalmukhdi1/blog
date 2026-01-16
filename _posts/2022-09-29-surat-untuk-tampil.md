@@ -2,7 +2,7 @@
 layout: post
 title: "Surat Untuk Tampil 🌈🕒🇮🇩"
 author: mnafisalmukhdi1
-categories: Other
+categories: Lainnya
 ---
 Kertas bertulisan dibungkus rapi<br>
 Kuantar hingga dunia tepi<br>
