@@ -21,10 +21,10 @@ jobs:
         node-version: '18'
 
     - name: Install Tailwind CLI
-      run: npm install -g tailwindcss postcss autoprefixer @tailwindcss/typography @tailwindcss/forms @tailwindcss/aspect-ratio @tailwindcss/container-queries
+      run: npm install
 
     - name: Build CSS with Tailwind
-      run: tailwindcss -i ./style.css -o ./style.generated.css --minify -c tailwind.config.js
+      run: npx tailwindcss -i ./style.css -o ./style.generated.css --minify -c tailwind.config.js
 
     - name: Commit and push compiled CSS if changed
       env:
