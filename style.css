@@ -3,16 +3,16 @@
 
 @layer components {
   .prose :where(h1):not(:where([class~="not-prose"] *)) {
-    @apply text-4xl font-bold tracking-tight text-gray-900;
+    @apply text-4xl font-bold tracking-tight text-teal-900 dark:text-teal-300;
   }
   .prose :where(h2):not(:where([class~="not-prose"] *)) {
-    @apply text-3xl font-semibold mt-6 mb-4 text-gray-800 !important;
+    @apply text-3xl font-semibold mt-8 mb-4 tracking-tight text-gray-800 dark:text-slate-100 !important;
   }
   .prose :where(h3):not(:where([class~="not-prose"] *)) {
-    @apply text-2xl font-medium mt-4 mb-2 text-gray-700 !important;
+    @apply text-2xl font-medium mt-6 mb-3 tracking-tight text-gray-700 dark:text-slate-200 !important;
   }
   .prose :where(blockquote):not(:where([class~="not-prose"] *)) {
-    @apply border-l-4 border-indigo-500 pl-4 italic text-gray-700 bg-indigo-50 rounded-md my-4 !important;
+    @apply border-l-2 border-teal-900/60 pl-4 italic text-gray-600 bg-transparent rounded-r-md my-4 !important;
   }
 }
 

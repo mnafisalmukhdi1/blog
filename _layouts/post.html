@@ -2,30 +2,34 @@
 layout: default
 comments: true
 ---
-<article>
-  <div class="mb-12">
-    <h1 class="text-3xl dark:text-white">{{page.title}}</h1>
-    <h2 class="text-2xl dark:text-white">Diposting oleh {{page.author}} pada {% if page.date %}{% assign hari_index = page.date | date: "%w" %}{% assign bulan_index = page.date | date: "%-m" | minus: 1 %}{% if site.hari[hari_index] %}{{ site.hari[hari_index] }}, {% endif %}{{ page.date | date: "%d" }} {% if site.bulan[bulan_index] %}{{ site.bulan[bulan_index] }} {% endif %}{{ page.date | date: "%Y"}}{% endif %}</h2>
-    <div class="post-categories">
+<article class="mx-auto max-w-2xl">
+  <header class="mb-10 border-b border-gray-200 pb-8 dark:border-slate-800">
+    <a href="/" class="mb-6 inline-flex items-center gap-1 text-xs font-medium uppercase tracking-widest text-gray-500 transition-colors hover:text-teal-900 dark:text-slate-400 dark:hover:text-teal-300">&larr; Semua tulisan</a>
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-teal-900 dark:text-teal-300">{{page.title}}</h1>
+    <p class="mt-3 text-sm text-gray-500 dark:text-slate-400">
+      {% if page.date %}{% assign hari_index = page.date | date: "%w" %}{% assign bulan_index = page.date | date: "%-m" | minus: 1 %}{% if site.hari[hari_index] %}{{ site.hari[hari_index] }}, {% endif %}{{ page.date | date: "%d" }} {% if site.bulan[bulan_index] %}{{ site.bulan[bulan_index] }} {% endif %}{{ page.date | date: "%Y"}}{% endif %}
+      {% if page.author %} &middot; {{ page.author }}{% endif %}
+    </p>
+    <div class="post-categories mt-4 flex flex-wrap gap-2">
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-    <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="underline dark:text-white">
+    <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="rounded-full border border-teal-900/20 px-3 py-1 text-xs font-medium text-teal-900 transition-colors hover:bg-teal-900 hover:text-white dark:border-teal-300/30 dark:text-teal-300 dark:hover:bg-teal-300 dark:hover:text-slate-900">
       {{ category }}
     </a>
   {% endfor %}
 </div>
 
-  </div>
-  <div class="prose space-y-2 dark:text-white">
+  </header>
+  <div class="prose prose-neutral max-w-none dark:prose-invert">
     {{content}}
   </div>
 </article>
-<section class="mt-12">
-  <hr class="mb-6">
+<section class="mx-auto mt-14 max-w-2xl">
+  <hr class="mb-6 border-gray-200 dark:border-slate-800">
   <div id="disqus_thread"></div>
 <script>
     /**

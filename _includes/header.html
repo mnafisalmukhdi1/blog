@@ -1,6 +1,14 @@
-<body class="dark:bg-slate-900">
-	<header class="w-full bg-gray-200 dark:bg-slate-800">
-		<div class="container mx-auto py-5 px-4">
-			<h1 class="text-4xl text-center"><a href="/" class="underline dark:text-white">{{site.title}}</a></h1>
+<body class="min-h-screen flex flex-col bg-gray-50 text-gray-900 antialiased selection:bg-teal-900/10 dark:bg-slate-950 dark:text-slate-100">
+	<a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-2 focus:text-sm focus:shadow dark:bg-slate-800 dark:text-white">Lewati ke konten</a>
+	<header class="sticky top-0 z-40 w-full border-b border-gray-200/80 bg-white/70 backdrop-blur dark:border-slate-800 dark:bg-slate-950/70">
+		<div class="mx-auto flex max-w-6xl items-center justify-between px-4 sm:px-6 py-4">
+			<a href="/" class="inline-flex items-center gap-2.5 text-lg font-semibold tracking-tight text-teal-900 transition-opacity hover:opacity-70 dark:text-teal-300">
+				<span aria-hidden="true" class="h-2 w-2 rounded-full bg-teal-900 dark:bg-teal-300"></span>
+				{{site.title}}
+			</a>
+			<nav class="flex items-center gap-1 text-sm" aria-label="Navigasi utama">
+				<a href="/categories/" class="rounded-full px-3 py-1.5 text-gray-600 transition-colors hover:bg-gray-100 hover:text-teal-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-teal-300">Kategori</a>
+				<a href="/feed.xml" class="rounded-full px-3 py-1.5 text-gray-600 transition-colors hover:bg-gray-100 hover:text-teal-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-teal-300">RSS</a>
+			</nav>
 		</div>
 	</header>

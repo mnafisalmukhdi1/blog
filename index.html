@@ -2,65 +2,63 @@
 layout: default
 title: "Beranda"
 ---
-<main class="max-w-6xl mx-auto px-4 py-8">
-  <form id="search-form" class="mb-8" role="search">
-    <label for="search-input" class="block text-sm font-semibold mb-2 dark:text-white">Cari tulisan</label>
+<main class="mb-10">
+  <form id="search-form" class="mb-10" role="search">
+    <label for="search-input" class="mb-2 block text-sm font-medium text-gray-600 dark:text-slate-300">Cari tulisan</label>
     <div class="flex gap-2">
       <input id="search-input" type="search" placeholder="Cari berdasarkan judul atau isi..." autocomplete="off"
-        class="w-full border border-gray-300 rounded px-4 py-2 dark:bg-slate-800 dark:border-slate-600 dark:text-white">
-      <button type="button" id="clear-search" class="hidden bg-gray-200 px-4 py-2 rounded dark:bg-slate-700 dark:text-white">Hapus</button>
+        class="w-full rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm text-gray-900 shadow-sm outline-none transition placeholder:text-gray-400 focus:border-teal-900/40 focus:ring-2 focus:ring-teal-900/10 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:placeholder:text-slate-500 dark:focus:border-teal-300/40 dark:focus:ring-teal-300/10">
+      <button type="button" id="clear-search" class="hidden rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm font-medium text-gray-600 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white">Hapus</button>
     </div>
-    <p id="search-status" class="mt-3 text-sm text-gray-600 dark:text-gray-300" aria-live="polite"></p>
+    <p id="search-status" class="mt-3 text-sm text-gray-500 dark:text-slate-400" aria-live="polite"></p>
   </form>
 
-  <div id="search-results" class="hidden flex-wrap justify-center md:justify-start gap-6"></div>
+  <div id="search-results" class="hidden flex-wrap justify-center md:justify-start gap-5"></div>
   <!-- This loops through the paginated posts -->
-  <div id="post-list" class="flex flex-wrap justify-center md:justify-start gap-6">
+  <div id="post-list" class="flex flex-wrap justify-center md:justify-start gap-5">
     {% for post in paginator.posts %}
     <!-- Post Card -->
-    <div class="post-card w-full md:w-80 bg-white dark:bg-slate-900 shadow-md rounded overflow-hidden">
-      <a href="{{ post.url }}">
-        <div class="p-4">
-          <!-- Judul -->
-          <h2 class="text-lg font-bold mb-2 text-teal-900 dark:text-teal-300">
-            {{ post.title }}
-          </h2>
-          <!-- Tanggal -->
-          <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">
-            {% assign bulan_index = post.date | date: "%-m" | minus: 1 %}{{ post.date | date: "%d" }} {{ site.bulan[bulan_index] }} {{ post.date | date: "%Y" }}
-          </p>
-          <!-- Preview konten (tanpa gambar, dipotong) -->
-          <p class="text-sm mb-4 text-gray-700 dark:text-gray-300">
-            {{ post.content | strip_html | truncatewords: 30, '...' }}
-          </p>
-          <!-- Tombol -->
-          <span class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">
-            Selengkapnya
-          </span>
-        </div>
+    <article class="post-card w-full md:w-80 rounded-xl border border-gray-200 bg-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md dark:border-slate-800 dark:bg-slate-900">
+      <a href="{{ post.url }}" class="block p-5">
+        <!-- Judul -->
+        <h2 class="text-base font-semibold leading-snug tracking-tight text-teal-900 dark:text-teal-300">
+          {{ post.title }}
+        </h2>
+        <!-- Tanggal -->
+        <p class="mt-1.5 text-xs text-gray-500 dark:text-slate-400">
+          {% assign bulan_index = post.date | date: "%-m" | minus: 1 %}{{ post.date | date: "%d" }} {{ site.bulan[bulan_index] }} {{ post.date | date: "%Y" }}
+        </p>
+        <!-- Preview konten (tanpa gambar, dipotong) -->
+        <p class="mt-3 text-sm leading-relaxed text-gray-600 dark:text-slate-300">
+          {{ post.content | strip_html | truncatewords: 30, '...' }}
+        </p>
+        <!-- Taut -->
+        <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-teal-900 dark:text-teal-300">
+          Selengkapnya <span aria-hidden="true">&rarr;</span>
+        </span>
       </a>
-    </div>
+    </article>
     {% endfor %}
   </div>
   <p id="no-results" class="hidden text-gray-600 dark:text-gray-300">Tidak ada tulisan yang cocok.</p>
 </main>
 
 <!-- Pagination links -->
-<div class="flex justify-between my-5">
+<div class="my-5 flex items-center justify-between text-sm">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="order-1 dark:text-white underline hover:opacity-50">
-      Sebelumnya
+    <a href="{{ paginator.previous_page_path }}" class="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-white px-4 py-2 font-medium text-gray-700 shadow-sm transition-colors hover:border-teal-900/30 hover:text-teal-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-teal-300/30 dark:hover:text-teal-300">
+      &larr; Sebelumnya
     </a>
   {% else %}
-    <span class="order-1 text-gray-500">Sebelumnya</span>
+    <span class="px-4 py-2 text-gray-400 dark:text-slate-600">Sebelumnya</span>
   {% endif %}
-  <span class="order-2 dark:text-white">
-    Halaman: {{ paginator.page }} dari {{ paginator.total_pages }}
+  <span class="text-gray-500 dark:text-slate-400">
+    Halaman {{ paginator.page }} dari {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="order-last dark:text-white underline hover:opacity-50">Selanjutnya</a>
+    <a href="{{ paginator.next_page_path }}" class="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-white px-4 py-2 font-medium text-gray-700 shadow-sm transition-colors hover:border-teal-900/30 hover:text-teal-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-teal-300/30 dark:hover:text-teal-300">Selanjutnya &rarr;</a>
   {% else %}
-    <span class="order-last text-gray-500">Sesudahnya</span>
+    <span class="px-4 py-2 text-gray-400 dark:text-slate-600">Sesudahnya</span>
   {% endif %}
 </div>
 
@@ -80,13 +78,13 @@ title: "Beranda"
     }[character]));
 
     const card = post => `
-      <div class="w-full md:w-80 bg-white dark:bg-slate-900 shadow-md rounded overflow-hidden">
-        <a href="${encodeURI(post.url)}"><div class="p-4">
-          <h2 class="text-lg font-bold mb-2 text-teal-900 dark:text-teal-300">${escapeHtml(post.title)}</h2>
-          <p class="text-sm mb-4 text-gray-700 dark:text-gray-300">${escapeHtml(post.excerpt)}</p>
-          <span class="inline-block bg-teal-900 dark:bg-teal-700 text-white px-4 py-2 rounded text-sm">Selengkapnya</span>
-        </div></a>
-      </div>`;
+      <article class="w-full md:w-80 rounded-xl border border-gray-200 bg-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md dark:border-slate-800 dark:bg-slate-900">
+        <a href="${encodeURI(post.url)}" class="block p-5">
+          <h2 class="text-base font-semibold leading-snug tracking-tight text-teal-900 dark:text-teal-300">${escapeHtml(post.title)}</h2>
+          <p class="mt-3 text-sm leading-relaxed text-gray-600 dark:text-slate-300">${escapeHtml(post.excerpt)}</p>
+          <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-teal-900 dark:text-teal-300">Selengkapnya <span aria-hidden="true">&rarr;</span></span>
+        </a>
+      </article>`;
 
     fetch('/search.json')
       .then(response => response.json())
